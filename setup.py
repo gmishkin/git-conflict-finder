@@ -9,7 +9,8 @@ setuptools.setup(
     python_requires='>=3.6',
     install_requires=[
         'GitPython>=2.1,<3',
-        'docopt>=0.6<1'
+        'docopt>=0.6<1',
+        'PyYAML>=5.1'
     ],
     extra_requires={
         'dev': ['pylint>=2.3']
